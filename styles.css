@@ -1,0 +1,88 @@
+/*General Styling*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header div*/
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+.profile-pic {
+  border: 3px black solid;
+  border-radius: 100%;
+  margin-left: 11vw;
+  width: 32vw;
+}
+
+/*Top Navigation Bar*/
+#navbar {
+  display: flex;
+  flex-direction: row;
+  position: sticky top;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  height: 10vh;
+  margin-bottom: 3%;
+}
+.navlist {
+  display: flex;
+  flex-direction: row;
+}
+#navbar a {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+/*About me*/
+#about {
+  margin-bottom: 7vh;
+}
+
+/*My Work*/
+#work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+/*What can I do?*/
+#what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
+
+/*Where can you find me?*/
+#where {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 7vh;
+}
