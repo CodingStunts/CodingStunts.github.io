@@ -6,6 +6,17 @@
   padding: 0;
 }
 
+p {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.frame {
+  padding-top: 20vh;
+}
+
 /*Header div*/
 #header {
   display: flex;
@@ -13,6 +24,7 @@
   justify-items: center;
   align-items: center;
   margin-bottom: 7vh;
+  background-color: white;
 }
 
 .header-text {
@@ -22,10 +34,9 @@
   margin-left: 10vw;
 }
 
-.header h1 {
+#header h1 {
   text-align: center;
   font-size: 50px;
-  margin-bottom: 2%;
 }
 .profile-pic {
   border: 3px black solid;
@@ -38,13 +49,14 @@
 #navbar {
   display: flex;
   flex-direction: row;
-  position: sticky top;
+  position: fixed;
   align-items: center;
   justify-content: center;
   background-color: aquamarine;
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
   height: 10vh;
+  width: 100vw;
   margin-bottom: 3%;
 }
 .navlist {
@@ -60,7 +72,14 @@
 }
 /*About me*/
 #about {
-  margin-bottom: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: black;
+  color: white;
 }
 
 /*My Work*/
@@ -68,7 +87,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 7vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: white;
+  color: black;
+}
+
+/*My Work & individual Native pages*/
+.screenshots {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.single-screenshot {
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+
+.single-screenshot img {
+  max-height: 40vw;
+}
+
+.games-server-screenshot {
+  border: 1px rgb(156, 156, 156) solid;
 }
 
 /*What can I do?*/
@@ -76,7 +120,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 7vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  background-color: black;
+  color: white;
 }
 
 /*Where can you find me?*/
@@ -84,5 +131,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 7vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#where img {
+  max-height: 3vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+/*Naturely*/
+.naturely {
+  margin-top: 10vh;
+}
+
+.app-text {
+  padding-left: 20vh;
+  padding-right: 20vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
