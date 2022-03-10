@@ -41,7 +41,14 @@ p {
 }
 
 .frame {
-  padding-top: 20vh;
+  padding-top: 8vh;
+  background: fixed;
+  background-color: rgb(96, 50, 100);
+}
+
+.see-through-background {
+  opacity: 0;
+  height: 5vh;
 }
 
 /*Header div*/
@@ -50,8 +57,8 @@ p {
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  margin-bottom: 7vh;
-  background-color: white;
+  padding: 7vh 0vh;
+  background-color: rgb(255, 222, 184);
 }
 
 .header-text {
@@ -75,7 +82,7 @@ p {
   position: fixed;
   align-items: center;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: rgb(255, 123, 0);
   border-bottom-left-radius: 15%;
   border-bottom-right-radius: 15%;
   height: 10vh;
@@ -92,12 +99,13 @@ p {
   text-align: center;
   justify-items: center;
   color: rgb(255, 0, 0);
-  background-color: aqua;
-  padding: 15px 50px;
-  border-radius: 25%;
+  background-color: aquamarine;
+  padding: 10px 40px;
+  border-radius: 50%;
 }
 .navlist a:hover {
-  color: rgb(238, 255, 0);
+  background-color: rgb(238, 255, 0);
+  color: red;
 }
 
 #navbar a {
@@ -116,7 +124,7 @@ p {
   padding-top: 3vh;
   padding-bottom: 3vh;
   background-color: black;
-  color: white;
+  color: rgb(255, 222, 184);
 }
 
 /*My Work*/
@@ -126,7 +134,7 @@ p {
   align-items: center;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  background-color: white;
+  background-color: rgb(255, 222, 184);
   color: black;
 }
 
@@ -160,7 +168,7 @@ p {
   padding-top: 3vh;
   padding-bottom: 3vh;
   background-color: black;
-  color: white;
+  color: rgb(255, 222, 184);
 }
 
 /*Where can you find me?*/
@@ -170,6 +178,7 @@ p {
   align-items: center;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  background-color: rgb(255, 222, 184);
 }
 
 #where img {
