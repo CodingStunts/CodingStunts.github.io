@@ -8,11 +8,29 @@
 
 @font-face {
   font-family: portfolio-font;
-  src: url(Font-Family/PTSans-Regular.ttf);
+  src: url(Font-Family//PTSans/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: intro-text;
+  src: url(Font-Family/Montez/Montez-Regular.ttf);
 }
 
 body {
-  font-family: portfolio-font;
+  font-family: portfolio-font, Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border: solid 3px black;
+  border-radius: 60%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  font-family: intro-text;
+  font-size: 110px;
+  text-align: center;
 }
 
 p {
@@ -43,12 +61,8 @@ p {
   margin-left: 10vw;
 }
 
-#header h1 {
-  text-align: center;
-  font-size: 50px;
-}
 .profile-pic {
-  border: 3px black solid;
+  border: 2px black solid;
   border-radius: 100%;
   margin-left: 11vw;
   width: 32vw;
