@@ -101,7 +101,7 @@ p {
   color: black;
   background-color: rgb(255, 222, 184);
   padding: 10px 40px;
-  border-radius: 75%;
+  border-radius: 50%;
 }
 .navlist a:hover {
   background-color: black;
@@ -159,9 +159,6 @@ p {
 
 .single-screenshot img {
   max-height: 40vw;
-}
-
-.games-server-screenshot {
   border: 1px rgb(156, 156, 156) solid;
 }
 
@@ -198,9 +195,14 @@ p {
   align-items: center;
 }
 
+/*Sub-page Styling*/
+.todo-list {
+  background-color: rgb(255, 222, 184);
+}
+
 /*Naturely*/
 .naturely {
-  margin-top: 10vh;
+  background-color: rgb(255, 222, 184);
 }
 
 .app-text {
