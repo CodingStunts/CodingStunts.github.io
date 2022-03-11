@@ -98,14 +98,19 @@ p {
 .navlist a:link {
   text-align: center;
   justify-items: center;
-  color: rgb(255, 0, 0);
-  background-color: aquamarine;
+  color: black;
+  background-color: rgb(255, 222, 184);
   padding: 10px 40px;
-  border-radius: 50%;
+  border-radius: 75%;
 }
 .navlist a:hover {
-  background-color: rgb(238, 255, 0);
-  color: red;
+  background-color: black;
+  color: rgb(255, 222, 184);
+}
+
+.navlist a:after {
+  color: black;
+  background-color: rgb(255, 222, 184);
 }
 
 #navbar a {
