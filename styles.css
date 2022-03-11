@@ -183,13 +183,14 @@ p {
 
 #where img {
   max-height: 3vw;
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .links {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 /*Naturely*/
