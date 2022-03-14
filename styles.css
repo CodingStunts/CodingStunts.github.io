@@ -1,11 +1,4 @@
-/*General Styling*/
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
+/*Local fonts*/
 @font-face {
   font-family: portfolio-font;
   src: url(Font-Family//PTSans/PTSans-Regular.ttf);
@@ -18,6 +11,13 @@
 
 body {
   font-family: portfolio-font, Arial, Helvetica, sans-serif;
+}
+
+/*General Styling*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -40,10 +40,20 @@ p {
   padding-bottom: 5vh;
 }
 
+.subheadings {
+  text-decoration: underline;
+}
+
 .frame {
-  padding-top: 8vh;
+  padding-top: 1vh;
   background: fixed;
-  background-color: rgb(96, 50, 100);
+}
+
+#background-img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
 }
 
 .see-through-background {
@@ -58,7 +68,7 @@ p {
   justify-items: center;
   align-items: center;
   padding: 10vh 0vh;
-  margin: 5vh 2vh 0vh;
+  margin: 5vh 4vh 0vh;
   border-radius: 25px;
   background-color: rgb(255, 222, 184);
 }
@@ -123,13 +133,13 @@ p {
   margin-right: 5vw;
 }
 /*About me*/
-#about {
+#who {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3vh 0vh;
-  margin: 0vh 2vh;
+  margin: 0vh 4vh;
   border-radius: 25px;
   background-color: black;
   color: rgb(255, 222, 184);
@@ -141,7 +151,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 3vh 0vh;
-  margin: 0vh 2vh;
+  margin: 0vh 4vh;
   border-radius: 50px;
   background-color: rgb(255, 222, 184);
   color: black;
@@ -172,7 +182,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 3vh 0vh;
-  margin: 0vh 2vh;
+  margin: 0vh 4vh;
   border-radius: 50px;
   background-color: black;
   color: rgb(255, 222, 184);
@@ -184,7 +194,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 3vh 0vh;
-  margin: 0vh 2vh;
+  margin: 0vh 4vh;
   border-radius: 50px;
   background-color: rgb(255, 222, 184);
 }
