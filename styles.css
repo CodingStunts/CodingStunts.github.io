@@ -231,12 +231,8 @@ p {
 }
 
 /*Sub-page Styling*/
-.todo-list {
-  background-color: rgb(255, 222, 184);
-}
 
-/*Naturely*/
-.naturely {
+.project-page {
   background-color: rgb(255, 222, 184);
 }
 
