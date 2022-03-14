@@ -73,7 +73,7 @@ p {
   align-items: center;
   padding: 10vh 0vh;
   margin: 14vh 4vh 0vh;
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: rgb(255, 222, 184);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
@@ -90,6 +90,11 @@ p {
   border-radius: 100%;
   margin-left: 11vw;
   width: 32vw;
+  transition: box-shadow 0.5s;
+}
+
+.profile-pic:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 12px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 /*Top Navigation Bar*/
@@ -117,8 +122,9 @@ p {
   justify-items: center;
   color: black;
   background-color: rgb(255, 222, 184);
-  padding: 10px 40px;
-  border-radius: 50%;
+  width: 13vw;
+  padding: 1vw 2vh;
+  border-radius: 25px;
 }
 .navlist a:hover {
   background-color: black;
@@ -134,8 +140,7 @@ p {
   list-style: none;
   font-size: 25px;
   font-weight: bold;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin: 0vw 2.5vw;
 }
 /*About me*/
 #who {
@@ -145,7 +150,7 @@ p {
   align-items: center;
   padding: 3vh 0vh;
   margin: 0vh 4vh;
-  border-radius: 25px;
+  border-radius: 50px;
   background-color: black;
   color: rgb(255, 222, 184);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
@@ -181,6 +186,11 @@ p {
 .single-screenshot img {
   max-height: 40vw;
   border: 1px rgb(156, 156, 156) solid;
+  transition: box-shadow 0.5s;
+}
+
+.single-screenshot img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 /*What can I do?*/
