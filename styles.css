@@ -91,11 +91,12 @@ p {
   border-radius: 100%;
   margin-left: 11vw;
   width: 32vw;
-  transition: box-shadow 0.5s;
+  transition: transform 0.5s, box-shadow 0.5s;
 }
 
 .profile-pic:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 12px 20px 0 rgba(0, 0, 0, 0.4);
+  transform: scale(1.1);
 }
 
 /*Top Navigation Bar*/
