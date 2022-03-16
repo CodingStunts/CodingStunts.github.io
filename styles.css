@@ -251,8 +251,20 @@ p {
 
 /*Sub-page Styling*/
 
+.sub-frame {
+  background: fixed;
+}
+
 .project-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vh 0vh;
+  margin: 4vh 4vh;
+  border-radius: 50px;
   background-color: rgb(255, 222, 184);
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .app-text {
