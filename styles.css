@@ -112,6 +112,7 @@ p {
   height: 10vh;
   width: 100vw;
   margin-bottom: 3%;
+  z-index: 5;
 }
 .navlist {
   display: flex;
