@@ -31,16 +31,6 @@ hr {
   margin-bottom: 10px;
 }
 
-.intro-text {
-  font-family: intro-text;
-  font-size: 8.5vw;
-  text-align: center;
-}
-
-.sub-intro-text {
-  font-size: 2vw;
-}
-
 p {
   padding: 5vw 20vh;
 }
@@ -78,6 +68,11 @@ p {
   background-color: rgb(255, 222, 184);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 480px) {
+  #header {
+    flex-direction: column;
+  }
+}
 
 .header-text {
   display: flex;
@@ -97,6 +92,26 @@ p {
 .profile-pic:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4), 0 12px 20px 0 rgba(0, 0, 0, 0.4);
   transform: scale(1.1);
+}
+
+.intro-text {
+  font-family: intro-text;
+  font-size: 8.5vw;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .intro-text {
+    font-size: 60px;
+  }
+}
+
+.sub-intro-text {
+  font-size: 2vw;
+}
+@media (max-width: 480px) {
+  .sub-intro-text {
+    font-size: 18px;
+  }
 }
 
 /*Top Navigation Bar*/
@@ -129,6 +144,7 @@ p {
   padding: 1vw 2vh;
   border-radius: 25px;
 }
+
 .navlist a:hover {
   background-color: black;
   color: rgb(255, 222, 184);
@@ -144,6 +160,11 @@ p {
   font-size: 25px;
   font-weight: bold;
   margin: 0vw 2.5vw;
+}
+@media (max-width: 480px) {
+  #navbar a {
+    font-size: 17px;
+  }
 }
 /*Who*/
 #who {
@@ -205,6 +226,11 @@ p {
   border: 1px rgb(156, 156, 156) solid;
   transition: box-shadow 0.5s;
 }
+@media (max-width: 480px) {
+  .single-screenshot img {
+    max-height: 60vh;
+  }
+}
 
 .single-screenshot img:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
@@ -245,6 +271,11 @@ p {
   margin-left: 1vw;
   margin-right: 1vw;
 }
+@media (max-width: 480px) {
+  #where img {
+    max-height: 8vw;
+  }
+}
 
 .links {
   display: flex;
@@ -275,6 +306,11 @@ p {
   padding-right: 20vh;
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+@media (max-width: 480px) {
+  .app-text {
+    padding: 5vw 5vh;
+  }
 }
 
 .back-icon {
