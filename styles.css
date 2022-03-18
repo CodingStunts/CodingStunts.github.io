@@ -87,7 +87,7 @@ p {
 }
 
 .profile-pic {
-  border: 2px black solid;
+  border: 1px black solid;
   border-radius: 100%;
   margin-left: 11vw;
   width: 32vw;
@@ -189,6 +189,7 @@ p {
   align-items: center;
   overflow: auto;
   white-space: nowrap;
+  padding: 3vh 0vw;
 }
 
 .single-screenshot {
