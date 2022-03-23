@@ -2,4 +2,4 @@
 
 This is a portfolio site. Still currently a work in progress. Made using HTML and vanilla CSS. Don't judge it too hard...yet.
 
-Hosted: CodingStunts.github.io
+Hosted: [here](https://CodingStunts.github.io)
