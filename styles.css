@@ -129,6 +129,7 @@ hr {
   margin-bottom: 3%;
   z-index: 5;
 }
+
 .navlist {
   display: flex;
   flex-direction: row;
