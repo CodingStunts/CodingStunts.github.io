@@ -80,13 +80,24 @@ hr {
   text-align: center;
   margin-left: 10vw;
 }
-
+@media (max-width: 480px) {
+  .header-text {
+    margin-left: 0;
+  }
+}
 .profile-pic {
   border: 1px black solid;
   border-radius: 100%;
   margin-left: 11vw;
   width: 32vw;
   transition: transform 0.5s, box-shadow 0.5s;
+}
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 50vw;
+    margin-left: 0;
+    margin-bottom: 3vh;
+  }
 }
 
 .profile-pic:hover {
@@ -135,11 +146,6 @@ hr {
   flex-direction: row;
 }
 
-.navlist p {
-  font-size: 2.2vw;
-  text-align: center;
-}
-
 /*Hyperlinks*/
 .navlist a:link {
   text-align: center;
@@ -163,12 +169,20 @@ hr {
 
 #navbar a {
   list-style: none;
+  font-size: 25px;
   font-weight: bold;
   margin: 0vw 2.5vw;
 }
 @media (max-width: 480px) {
   #navbar a {
-    font-size: 17px;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(255, 123, 0);
+  }
+  .navlist {
+    width: 97vw;
+    justify-items: space-between;
+    align-items: space-between;
   }
 }
 /*Who*/
